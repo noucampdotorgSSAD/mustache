@@ -7,7 +7,7 @@
 1.  Examine and open the file [http://localhost/mustache/listStations.html](http://localhost/mustache/listStations.html)
 
 
-## Part 1 – Players
+## Part 2 – Players
 
 1.	View the content and structure of the [http://localhost/mustache/players.js](http://localhost/mustache/players.js) file.
 
@@ -19,10 +19,24 @@
 
 	![img](../images/playerTable.png)
 
-## Part 2 – Clubs
+## Part 3 – Clubs
 
 1.	Open and examine the files [http://localhost/mustache/clubsAjaxJSON.html](http://localhost/mustache/clubsAjaxJSON.html), ``clubsAjaxJSON.js`` and ``clubs.json`` 
 
 	This solution does NOT use a Mustache template.
 
 	Update the code so a Mustache template is used to print the clubs in an unordered list.
+
+
+## Update to GitHub
+
+1.	Push your code to **your private** repository on GitHub.  Type these commands into your *Git Bash* client:
+
+	```
+	$ git status
+	$ git add .
+	$ git commit -m "Exercise 2 - DONE|PARTIAL|HELP"
+	$ git push origin master
+	$ git status
+
+	```
