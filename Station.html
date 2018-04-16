@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <script src='jquery-3.3.1.min.js'></script>
+    <script type="text/javascript" src="mustache.js"></script>
+    <script type="text/javascript" src="Station.js"></script>
+</head>
+
+<body>
+<script id="stationTemplate" type="text/template">
+    <div class="stationTemplateWrapper">
+        <div>Station No: {{stno}}</div>
+        <div>Name: {{name}}</div>
+        <div>County: {{county}}</div>
+    </div>
+</script>
+
+<h1>Station</h1>
+<div id="container"></div>
+</body>
+</html>
